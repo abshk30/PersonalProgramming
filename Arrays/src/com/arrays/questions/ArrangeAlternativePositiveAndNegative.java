@@ -1,7 +1,6 @@
 package com.arrays.questions;
 
 public class ArrangeAlternativePositiveAndNegative {
-
 	public static void main(String[] args) {
 		int arr[] = {-1,2,3,4,5,6,7,8,-3,-4,-5,-9,-6,-7,-8};
 		int positiveIndex = 0 ;
@@ -17,7 +16,6 @@ public class ArrangeAlternativePositiveAndNegative {
 			System.out.print(arr[i]+" ");
 		}
 	}
-
 	private static void findPositiveIndex(int[] arr, int positiveIndex) {
 		for (int i = positiveIndex ; i < arr.length; i++) {
 			if(arr[i] > 0){
@@ -27,7 +25,6 @@ public class ArrangeAlternativePositiveAndNegative {
 		}
 		
 	}
-
 	private static void findNegativeIndex(int[] arr, int negativeIndex) {
 		for (int i = negativeIndex ; i < arr.length; i++) {
 			if(arr[i] < 0){
@@ -35,13 +32,10 @@ public class ArrangeAlternativePositiveAndNegative {
 				break;
 			}
 		}
-		
 	}
-
 	private static void swap(int[] arr, int i, int j) {
 		int temp = arr[i];
 		arr[i] = arr[j];
 		arr[j] = temp;
-		
 	}
 }

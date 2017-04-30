@@ -3,7 +3,7 @@ package com.arrays.questions;
 public class Permutation {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 4 };
+		int arr[] = { 1, 2, 3 };
 		permute(arr, 0, arr.length - 1);
 	}
 
