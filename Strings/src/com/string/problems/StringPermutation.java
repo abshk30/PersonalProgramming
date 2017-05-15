@@ -23,7 +23,7 @@ public class StringPermutation {
 		}
 	}
 
-	private static void swap(char[] chars, int start, int i) {
+	private static void swap(char[] chars, int start, int i) {	
 		char temp = chars[start];
 		chars[start] = chars[i];
 		chars[i]=temp;

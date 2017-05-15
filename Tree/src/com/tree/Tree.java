@@ -2,7 +2,7 @@ package com.tree;
 
 public class Tree {
 
-	Node root;
+	public Node root;
 	public void addNode(int data){
 		root=addNodeH(root,data);
 	}
