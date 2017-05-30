@@ -24,6 +24,18 @@ public class TreeProblem {
 		//System.out.println("Mirror Images ");
 		//printTree(tree.root);
 		findMinimumValue(tree.root);
+		checkIsBST(tree.root);
+	}
+	
+	private static void checkIsBST(Node node) {
+		System.out.println(isBSTHelper(node));
+	}
+	private static boolean isBSTHelper(Node node) {
+		if(node == null) return Boolean.FALSE;
+		
+		
+		
+		return true ;
 	}
 	static int minValue = 1000000;
 	
