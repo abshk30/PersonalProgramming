@@ -16,7 +16,7 @@ public class LargestNumberInBST {
 		tree1.addNode(11);
 		tree1.addNode(18);
 		
-		largestInBST(tree1.root, 4);
+		largestInBST(tree1.root, 17);
 
 	}
 	

@@ -22,18 +22,18 @@ public class LowestCommonAncestor {
 		tree.addNode(11);
 		//tree.addNode(2);
 		TreeProblem.printTree(tree.root);
-		System.out.println();
-		/*System.out.print("\n\nLCD value is ::  ");
+		/*System.out.println();
+		System.out.print("\n\nLCD value is ::  ");
 		
 		Node n = findLowestCommonAncestor(tree.root, 3, 5);
 		System.out.print(n.data);*/
 		
-		/*findKthSmallestElementBST(tree.root, 3);
-		try {Node n1 = count.get(9);
+		findKthSmallestElementBST(tree.root, 3);
+		try {Node n1 = count.get(6);
 		System.out.println(n1 != null ? n1.data: "Not found");
 		}catch(Exception e){
 			System.out.println("Not Found");
-		}*/
+		}
 	}
 	
 	public static Node findLowestCommonAncestor(Node node, int n1, int n2) {

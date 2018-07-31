@@ -3,7 +3,7 @@ package com.string.problems;
 public class Permutation {
 
 	public static void main(String[] args) {
-		String str ="Abhishek";
+		String str ="abc";
 		
 		char[] chars = str.toCharArray();
 		permute(chars,0,str.length()-1);

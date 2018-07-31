@@ -5,13 +5,8 @@ public class FindKthElement {
 	public static void main(String[] args) {
 		
 		int numberArray []= {12,45,23,56,98,2,32,66,22,78,14};
-		quickSort(numberArray, 0 , numberArray.length-1,6);
-		for (int i = 0; i < numberArray.length; i++) {
-			System.out.print(numberArray[i]+ " ");
-			
-		}
-		System.out.println();
-		System.out.println(numberArray[6]);
+		quickSort(numberArray, 0 , numberArray.length-1,5);
+		
 		
 	}
 
@@ -19,7 +14,10 @@ public class FindKthElement {
 		
 		if(startIndex <endIndex){
 			int pavoitIndex = partition(numberArray,startIndex,endIndex);
-		//	if(KthElement < pavoitIndex)
+			if(KthElement == pavoitIndex) {
+				System.out.println(numberArray[KthElement]);
+				return;
+			}
 			quickSort(numberArray, startIndex, pavoitIndex-1,KthElement);
 			//else
 			quickSort(numberArray, pavoitIndex+1 , endIndex, KthElement);

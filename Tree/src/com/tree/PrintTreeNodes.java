@@ -26,8 +26,8 @@ public class PrintTreeNodes {
 //		kThSumPath(tree.root,9);
 	//	maxElementBtwTwoNode(tree.root,new Node(2), new Node(9));
 		
-		//kthSmallestElement(tree.root, 4);
-		closestElement(tree.root, 1);
+		kthSmallestElement(tree.root, 4);
+		//closestElement(tree.root, 1);
 	}
 
 	public static void fullNode(Node node) {

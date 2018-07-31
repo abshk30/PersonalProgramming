@@ -17,14 +17,14 @@ public class TreeProblem {
 		tree.addNode(9);
 		tree.addNode(11);
 		tree.addNode(2);
-		//printPath(tree.root);
+		printPath(tree.root);
 	//	printTree(tree.root);
 		//System.out.println();
 	//	mirrorImage(tree.root);
 		//System.out.println("Mirror Images ");
 		//printTree(tree.root);
-		findMinimumValue(tree.root);
-		checkIsBST(tree.root);
+		/*findMinimumValue(tree.root);
+		checkIsBST(tree.root);*/
 	}
 	
 	private static void checkIsBST(Node node) {
